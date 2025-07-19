@@ -160,12 +160,35 @@ header{
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .featured-description{
     width: 50%;
 }
 .featured-description button{
     border-radius: 2px;
+}
+
+/******************************FOOTER******************************/
+hr{
+    width: 700px;
+
+}
+footer{
+   
+    font-weight: bold;
+    color: black;
+    padding: 2rem;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.socal-media-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 50px  auto 0  auto;
 }
 
 
@@ -237,6 +260,10 @@ header{
    .featured-description{
     width: 100%;
    }
+   hr{
+    width: 300px;
+
+}
 
 
 
