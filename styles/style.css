@@ -3,12 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 /*FONT STYLES*/
 .poppins-font {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 
 /*SHARED ITEM*/
 .display-flex{
@@ -24,7 +35,6 @@
     border-radius: 42px;
     align-items: center;
     gap: 15px;
-
 }
 
 
@@ -93,6 +103,57 @@ header{
     height: 30px;
 }
 
+/********************POPULAR COLLECTION************************/
+.popular-collection{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.section-heading{ 
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+.collection-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.box{
+    margin-bottom: 30px;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 26%;
+    box-shadow: 3px 3px 5px rgb(179, 168, 168);
+}
+.section-heading{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 6px
+
+}
+.box h3{
+    margin: 0;
+    margin-bottom: 6px;
+}
+.box-des{
+    font-weight: bold;
+    color: gray;
+}
+.box h4{
+    margin: 8px 0;
+}
+
+
+.ratings i{
+    color: orange;
+}
+
 
 
 /*MOBILE RESPONSIVE*/
@@ -134,13 +195,22 @@ header{
         width: 90%;
         gap: 40px;
         flex-wrap: wrap;
-    
-      
     }
+
+   .box{
+    padding: 2rem ;
+    border: 1px solid rgb(163, 163, 163);
+    width: 90%;
+    margin: 1.5rem auto;   
+   }
+   .box img{
+    width: 100%;
+   }
+   
 }
 
 /*FOR TABLET*/
-@media screen and (min-width:576px) and (max-width: 900px) {
+@media screen and (min-width:576px) and (max-width: 1100px) {
     header{
         justify-content: space-around;
     }
@@ -148,6 +218,25 @@ header{
         width: 80%;
         
        
+    }
+    .company img{
+        width: 100px;
+    }
+    .company{
+        width: 90%;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 40%;
+        padding: 2rem;
+    }
+
+    .box img{
+        width: 100%;
+       
+        
     }
     
 }
