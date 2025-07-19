@@ -154,6 +154,22 @@ header{
     color: orange;
 }
 
+/***********************FEATURED PRODUCTS************************/
+.featured-products{
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.featured-description{
+    width: 50%;
+}
+.featured-description button{
+    border-radius: 2px;
+}
+
+
+
 
 
 /*MOBILE RESPONSIVE*/
@@ -206,6 +222,24 @@ header{
    .box img{
     width: 100%;
    }
+
+   .featured-products{
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   }
+
+     .featured-products img{
+        width: 90%;
+     }
+
+   .featured-description{
+    width: 100%;
+   }
+
+
+
    
 }
 
@@ -238,5 +272,20 @@ header{
        
         
     }
+
+       .featured-products{
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   }
+
+     .featured-products img{
+        width: 90%;
+     }
+
+   .featured-description{
+    width: 100%;
+   }
     
 }
